@@ -1,0 +1,39 @@
+#p1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: beige;
+}
+.h3{
+   font-family: Arial, Helvetica, sans-serif;
+  color: beige;
+  text-align: center;
+  text-shadow: black 2px 2px;
+}
+.h2{
+  font-family: Arial, Helvetica, sans-serif;
+  color: beige;
+  text-align: center;
+  text-shadow: black 2px 2px;
+}
+
+.image {
+  opacity: 0.5;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+  border-radius: 6px;
+  box-shadow: antiquewhite 2px 2px;
+  height: 300px;
+
+}
+
+.image:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+
+}
+#btn{
+  background:var(--ion-h1-color);
+}
+#btn:hover{
+  background:beige;
+  transition:2s all;
+  text-color: red;
+}

@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-title><h2 class="h2">{{name}}</h2></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+	<ion-card> 
+        <img src="{{src}}"/>
+	
+        <ion-item> <h5 class="h5">Blogger: {{wonder}}</h5></ion-item>
+        <ion-item> <h5 class="h5"> Name:  {{name}} </h5> </ion-item>
+ <ion-item> <h5 class="h5">Followers
+ </h5>   <ion-badge item-end> {{follower}} </ion-badge>
+    </ion-item>
+</ion-card>
+  
+      
+  <div align="center">
+  <ion-button color="danger" (click)="exit()">Back</ion-button>
+  <ion-button color="danger" href="https://www.instagram.com/amelialiana/?hl=en" icon-start> Follow
+  <ion-icon name="add"></ion-icon>
+ </ion-button>
+ 
+</div>
+</ion-content>
