@@ -1,0 +1,32 @@
+.h2{
+  font-family: Arial, Helvetica, sans-serif;
+  color: beige;
+  text-align: center;
+  text-shadow: black 2px 2px;
+}
+.h3{
+  font-family: Arial, Helvetica, sans-serif;
+  color: beige;
+  text-align: center;
+  text-shadow: black 2px 2px;
+}
+.h5{
+  font-family: Arial, Helvetica, sans-serif;
+  color: beige;
+  text-align: center;
+  text-shadow: black 2px 2px;
+}
+
+.btn:hover{
+  background:beige;
+  transition:2s all;
+  text-color: red;
+}
+img{
+
+  transition: transform .2s; /* Animation */
+
+}
+img:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
