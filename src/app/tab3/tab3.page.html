@@ -1,0 +1,57 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      <h2 class="h2">  Tutorials </h2>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <h4 class="h3">Slide for more videos</h4></ion-item>
+  <ion-slides>
+    <ion-slide>
+      <ion-card>
+        <ion-card-header>
+          <h5 class="h5">  Eye Makeup Tutorial For Beginners</h5>
+        </ion-card-header>
+    <ion-item>
+      <iframe id="vid"width="560" height="315" src="https://www.youtube.com/embed/d8bct2_ix4U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></ion-item>
+        <ion-card-content>
+          <h5 class="h5"> Get the trend in just few minutes</h5>
+        </ion-card-content>
+      </ion-card>
+
+    </ion-slide>
+    <ion-slide>
+      <ion-card>
+        <ion-card-header>
+          <h5 class="h5">  Lipshades</h5>
+        </ion-card-header>
+
+     <ion-item><iframe width="560" height="315" src="https://www.youtube.com/embed/3zdCCTWjqPg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>     </ion-item>
+        <ion-card-content>
+          <h5 class="h5"> Get your Lipshades right</h5>
+        </ion-card-content>
+      </ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card>
+        <ion-card-header>
+          <h5 class="h5"> Highlighters OnPoint  </h5>
+        </ion-card-header>
+        <ion-item> <iframe width="560" height="315" src="https://www.youtube.com/embed/zFxxyb4V0c8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></ion-item>
+        <ion-card-content>
+          <h5 class="h5"> Get the glammer</h5>
+        </ion-card-content>
+      </ion-card>
+    </ion-slide>
+    
+  </ion-slides>
+    
+    <h2 class="h5">Instagram Bloggers for latest fashions</h2>
+    <ion-item *ngFor="let m of makeservice.myData.items" (click)="showdetail($event)"> <h5 class="h5">{{m.name}}</h5></ion-item>
+ 
+
+  
+</ion-content>
